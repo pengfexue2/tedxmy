@@ -12,6 +12,7 @@ from . import views
 
 router = routers.DefaultRouter()
 router.register(r'website',views.WebsiteViewSet)
+router.register(r'weibo',views.WeiboViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
