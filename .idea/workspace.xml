@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3786ca0f-91fb-42e0-9322-8475aac66611" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapi/get_website.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapi/get_website.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myapi/myapi/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/myapi/myapi/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -122,7 +120,6 @@
         <option value="$PROJECT_DIR$/myapi/hotlist/admin.py" />
         <option value="$PROJECT_DIR$/myapi/myapi/urls.py" />
         <option value="$PROJECT_DIR$/../杂活/编程/20191121/answer.py" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/myapi/myapi/test.py" />
         <option value="$PROJECT_DIR$/../杂活/编程/20191127/相关资料/streaks.py" />
         <option value="$PROJECT_DIR$/../杂活/编程/PS04  新作业 12.1due/Final P1.py" />
@@ -132,10 +129,11 @@
         <option value="$PROJECT_DIR$/myapi/hotlist/serializers.py" />
         <option value="$PROJECT_DIR$/myapi/myapi/settings.py" />
         <option value="$PROJECT_DIR$/myapi/get_website.py" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="954" />
@@ -488,7 +486,7 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
