@@ -25,7 +25,7 @@ SECRET_KEY = 'p!kr0*!iovgh=e)73rekut-=nto613xz$zbr4ub!%(buau3^^)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['tedxapi.pythonanywhere.com','127.0.0.1']
+ALLOWED_HOSTS = ['www.zhihu.com','127.0.0.1']
 
 
 # Application definition

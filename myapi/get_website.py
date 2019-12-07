@@ -65,12 +65,13 @@ def get_weibo():
 if __name__ == '__main__':
     from hotlist.models import Website, Weibo
     import time
+    time_str = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
     ted = get_zhihu()
     Website.objects.all().delete()
     count = 0
     for item in ted:
         count+=1
-        Website.objects.get_or_create(CreateTime=int(time.time()), Desc=item['target']['excerptArea']['text'], Title=item['target']['titleArea']['text'],Url=item['target']['link']['url'], approvalNum="0", commentNum=str(item['feedSpecific']['answerCount']),hotDesc=item['target']['metricsArea']['text'], idWeb=str(count), imgUrl=item['target']['imageArea']['url'])
+        Website.objects.get_or_create(CreateTime=time_str, Desc=item['target']['excerptArea']['text'], Title=item['target']['titleArea']['text'],Url=item['target']['link']['url'], approvalNum="0", commentNum=str(item['feedSpecific']['answerCount']),hotDesc=item['target']['metricsArea']['text'], idWeb=str(count), imgUrl=item['target']['imageArea']['url'])
     print("zhihu done")
 
     mia = get_weibo()
@@ -78,5 +79,5 @@ if __name__ == '__main__':
     wb_count = 0
     for topic in mia:
         wb_count+=1
-        Weibo.objects.get_or_create(CreateTime=int(time.time()), index=topic['index'], title=topic['title'],mark=topic['mark'],level=topic['level'],link=topic['link'])
+        Weibo.objects.get_or_create(CreateTime=time_str, index=topic['index'], title=topic['title'],mark=topic['mark'],level=topic['level'],link=topic['link'])
     print("weibo done")
